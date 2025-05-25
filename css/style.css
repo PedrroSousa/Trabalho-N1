@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Rubik+Wet+Paint&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: normal; 
+}
+
+h2 {
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  background-color: #480e5b;
+  padding: 0.938rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0.625rem 6.25rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #af0e77;
+}
+
+header {
+  text-align: center;
+  padding: 2.5rem 0rem;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+ul li {
+  padding: 0.5rem 0;
+  border-bottom: 0.063rem solid #333;
+}
+
+/*----------------------------------------------------pagina inicio ---------------------------------------------------*/
+
+.grupos-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.grupo-banner {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.grupo-banner:hover {
+  transform: scale(1.02);
+}
+
+.grupo-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* escurece a imagem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grupo-overlay h2 {
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+/*-------------------------------------------------- akatsuki grupo --------------------------------------------------*/
+
+.akatsuki-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.akatsuki-banner {
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.akatsuki-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.akatsuki-text p {
+  max-width: 800px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/*-------------------------------------------------- espada grupo --------------------------------------------------*/
+
+.espada-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.espada-banner {
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.espada-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.espada-text p {
+  max-width: 800px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.grade-personagens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 5rem;
+}
+
+.card {
+  background-color: #111;
+  border: 0.125rem solid #333;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  border-color: #666;
+}
+
+.card img {
+  width: 100%;
+  height: 12.5rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 0.625rem;
+  border: 0.063rem solid #222;
+}
+
+.card h2 {
+  margin: 0.625rem 0;
+  font-size: 1.25rem;
+}
+
+.card p {
+  font-size: 0.875rem;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.starrk h2 { color: #6aa9ff; }
+.baraggan h2 { color: #a066d2; }
+.harribel h2 { color: #d4af37; }
+.ulquiorra h2 { color: #48c78e; }
+.nnoitra h2 { color: #cccccc; }
+.grimmjow h2 { color: #00bfff; }
+.zommari h2 { color: #c95dc2; }
+.szayel h2 { color: #ff99cc; }
+.aaroniero h2 { color: #99ff66; }
+.yammy h2 { color: #ff4c4c; }
+
+.pain h2 { color: #f57c00; }
+.konan h2 { color: #6aa9ff; }
+.itachi h2 { color: #ff5e5e; }
+.kisame h2 { color: #40c4ff; }
+.deidara h2 { color: #fdd835; }
+.sasori h2 { color: #ff99cc; }
+.hidan h2 { color: #c62828; }
+.kakuzu h2 { color: #4db6ac; }
+.tobi h2 { color: #f57c00; }
+.zetsu h2 { color: #81c784; }
+
+footer {
+  text-align: center;
+  padding: 1.25rem;
+  background-color: #480e5b;
+}
+
+@media (max-width: 37.5rem) {
+  nav ul {
+    align-items: center;
+  }
+
+  nav li {
+    margin: 0.625rem 2rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 0.625rem;
+  }
+}
+
